@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":3,"path":"folders/Objects.yy",},
+    {"name":"Player","order":8,"path":"folders/Player.yy",},
+    {"name":"Rooms","order":4,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":2,"path":"folders/Scripts.yy",},
+    {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_wall","order":2,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"spr_explode","order":5,"path":"sprites/spr_explode/spr_explode.yy",},
+    {"name":"spr_fruity","order":6,"path":"sprites/spr_fruity/spr_fruity.yy",},
+    {"name":"spr_sky","order":10,"path":"sprites/spr_sky/spr_sky.yy",},
+    {"name":"spr_tempground","order":9,"path":"sprites/spr_tempground/spr_tempground.yy",},
+    {"name":"spr_temprun","order":1,"path":"sprites/spr_temprun/spr_temprun.yy",},
+    {"name":"spr_wall","order":7,"path":"sprites/spr_wall/spr_wall.yy",},
+  ],
+}
