@@ -172,7 +172,7 @@ function sprite_it() { // changes sprite based on "it" status
 
 function check_death() {
 	if (it = 1) && ((obj_tag_timer.death_seconds-(obj_player.tag_iframe_count)/60) = 0) {
-		instance_create_layer(x, y, "Instances", obj_explode);
+		instance_create_layer(x, y, "Instances", obj_explodeBIG);
 		instance_destroy();
 	}
 }

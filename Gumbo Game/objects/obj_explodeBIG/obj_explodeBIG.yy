@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_explode",
+  "%Name":"obj_explodeBIG",
   "eventList":[],
   "managed":true,
-  "name":"obj_explode",
+  "name":"obj_explodeBIG",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
