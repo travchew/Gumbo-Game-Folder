@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+draw_self()
 
 
 if(collision_rectangle(x,y,x+sprite_width,y+sprite_height,obj_player,false,false)){
@@ -12,3 +12,6 @@ if(collision_rectangle(x,y,x+sprite_width,y+sprite_height,obj_player,false,false
 		interactLantern();
 	}
 } else colliding = false;
+
+
+event_inherited()

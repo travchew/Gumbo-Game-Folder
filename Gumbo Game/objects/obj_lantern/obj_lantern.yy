@@ -13,7 +13,10 @@
     "name":"lanternStuff",
     "path":"folders/Objects/lanternStuff.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_glowable",
+    "path":"objects/obj_glowable/obj_glowable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

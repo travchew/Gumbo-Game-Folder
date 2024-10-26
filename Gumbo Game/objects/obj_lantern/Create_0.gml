@@ -14,6 +14,7 @@ spiritWorldOn = false;
 
 colliding = false
 
+event_inherited()
 
 function interactLantern(){
 

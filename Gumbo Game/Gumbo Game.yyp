@@ -54,6 +54,7 @@
     {"id":{"name":"obj_coins","path":"objects/obj_coins/obj_coins.yy",},},
     {"id":{"name":"obj_explodeBIG","path":"objects/obj_explodeBIG/obj_explodeBIG.yy",},},
     {"id":{"name":"obj_fadeable","path":"objects/obj_fadeable/obj_fadeable.yy",},},
+    {"id":{"name":"obj_glowable","path":"objects/obj_glowable/obj_glowable.yy",},},
     {"id":{"name":"obj_lantern","path":"objects/obj_lantern/obj_lantern.yy",},},
     {"id":{"name":"obj_lanternManger","path":"objects/obj_lanternManger/obj_lanternManger.yy",},},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},

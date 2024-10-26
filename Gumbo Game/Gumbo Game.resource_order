@@ -35,6 +35,7 @@
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_coins","order":11,"path":"objects/obj_coins/obj_coins.yy",},
     {"name":"obj_fadeable","order":7,"path":"objects/obj_fadeable/obj_fadeable.yy",},
+    {"name":"obj_glowable","order":13,"path":"objects/obj_glowable/obj_glowable.yy",},
     {"name":"obj_lanternManger","order":1,"path":"objects/obj_lanternManger/obj_lanternManger.yy",},
     {"name":"obj_npc","order":12,"path":"objects/obj_npc/obj_npc.yy",},
     {"name":"obj_paraCam","order":1,"path":"objects/obj_paraCam/obj_paraCam.yy",},

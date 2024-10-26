@@ -6,3 +6,5 @@ fadeStep = 0.05
 
 fadeOUT = false;
 fadeIN = false;
+
+event_inherited()
