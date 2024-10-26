@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":2,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"parallaxStuff","folderPath":"folders/Objects/parallaxStuff.yy","name":"parallaxStuff","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -23,7 +23,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"Gumbo Game",
   "resources":[
@@ -35,6 +35,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_worldManager","path":"objects/obj_worldManager/obj_worldManager.yy",},},
+    {"id":{"name":"Object9","path":"objects/Object9/Object9.yy",},},
     {"id":{"name":"parallaxAndMovementRoom","path":"rooms/parallaxAndMovementRoom/parallaxAndMovementRoom.yy",},},
     {"id":{"name":"parallaxTest","path":"rooms/parallaxTest/parallaxTest.yy",},},
     {"id":{"name":"testRoom","path":"rooms/testRoom/testRoom.yy",},},

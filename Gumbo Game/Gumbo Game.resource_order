@@ -15,6 +15,7 @@
     {"name":"obj_paraCam","order":1,"path":"objects/obj_paraCam/obj_paraCam.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_worldManager","order":6,"path":"objects/obj_worldManager/obj_worldManager.yy",},
+    {"name":"Object9","order":12,"path":"objects/Object9/Object9.yy",},
     {"name":"parallaxAndMovementRoom","order":2,"path":"rooms/parallaxAndMovementRoom/parallaxAndMovementRoom.yy",},
     {"name":"parallaxTest","order":1,"path":"rooms/parallaxTest/parallaxTest.yy",},
     {"name":"spr_bridge","order":2,"path":"sprites/spr_bridge/spr_bridge.yy",},
