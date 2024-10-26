@@ -2,8 +2,14 @@
 
 
 
-if (keyboard_check_pressed(vk_space)){
-	player.stopPlayerMovement()
-}
 
+
+
+if global.currentWorld == "spirit"{
+	
+	layer_set_visible(FXlayer,true)
+} else {
+	
+	layer_set_visible(FXlayer,false)
+}
 

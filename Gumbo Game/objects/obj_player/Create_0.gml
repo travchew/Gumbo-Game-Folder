@@ -6,12 +6,24 @@ hspd = 0;
 image_speed = 0;
 
 takeInput = true;
+ImgScale = 1;
+HasCoins = false;
 
+event_inherited()
 
-function stopPlayerMovement(){
+function changePlayerMovement(){
 	takeInput = !takeInput;
 	hspd = 0
 	vspd = 0
+}
+
+function bridgeCrossAnimation(){
+		/*
+		ImgScale -= 0.1;
+		image_xscale = ImgScale
+		image_yscale = ImgScale
+		show_debug_message(ImgScale)
+		*/
 }
 
 

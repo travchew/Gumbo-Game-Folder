@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Object9",
+  "%Name":"obj_lanternManger",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object9",
+  "name":"obj_lanternManger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gumbo Game",
-    "path":"Gumbo Game.yyp",
+    "name":"lanternStuff",
+    "path":"folders/Objects/lanternStuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
