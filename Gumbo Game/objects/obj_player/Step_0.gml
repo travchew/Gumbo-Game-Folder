@@ -1,7 +1,7 @@
 if (player = 0) arrow_inputs_p1();
 else if (player = 1) arrow_inputs_p2();
 
-wrap(); // has to do with x side of wrap
+//wrap(); // has to do with x side of wrap //max: commented for testing also cuz ion think we need to wrap around the room if its like a mario level
 
 x_movement();
 
