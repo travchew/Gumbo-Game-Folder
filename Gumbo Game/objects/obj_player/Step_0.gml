@@ -1,21 +1,25 @@
-if (player = 0) arrow_inputs_p1();
-else if (player = 1) arrow_inputs_p2();
+if(takeInput){
 
-//wrap(); // has to do with x side of wrap //max: commented for testing also cuz ion think we need to wrap around the room if its like a mario level
+	if (player = 0) arrow_inputs_p1();
+	else if (player = 1) arrow_inputs_p2();
 
-x_movement();
+	//wrap(); // has to do with x side of wrap //max: commented for testing also cuz ion think we need to wrap around the room if its like a mario level
 
-gravity_force();
+	x_movement();
 
-hspd_move();
-vspd_move();
+	gravity_force();
 
-is_grounded();
+	hspd_move();
+	vspd_move();
 
-if (up_key) && (grounded) jump();
+	is_grounded();
 
-tag_iframe_count += 1;
+	if (up_key) && (grounded) jump();
 
-//check_death();
+	tag_iframe_count += 1;
 
-sprite_it();
+	//check_death();
+
+	sprite_it();
+
+}

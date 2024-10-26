@@ -1,0 +1,1 @@
+draw_text_color(0,0,global.currentWorld,c_red,c_red,c_red,c_red,1)

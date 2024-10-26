@@ -5,6 +5,16 @@ hspd = 0;
 
 image_speed = 0;
 
+takeInput = true;
+
+
+function stopPlayerMovement(){
+	takeInput = !takeInput;
+	hspd = 0
+	vspd = 0
+}
+
+
 
 // X AXIS
 hacc = 0; // horizontal acceleration
