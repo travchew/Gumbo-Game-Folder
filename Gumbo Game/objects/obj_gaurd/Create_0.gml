@@ -1,6 +1,6 @@
 event_inherited()
 text[0] = "Entering this festival requires a toll.";
-text[1] = "[wave]What? You can't pay?[/wave] Return when you have something to pay me with?";
+text[1] = "[shake]What?[/shake] [wave]You can't pay?[/wave] Return when you have something to pay me with!";
 wall_destroyed = false;
 
 
