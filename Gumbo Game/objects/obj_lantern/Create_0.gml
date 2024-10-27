@@ -22,3 +22,4 @@ function interactLantern(){
 	spiritWorldOn = !spiritWorldOn
 		
 }
+show_debug_message("i exist");

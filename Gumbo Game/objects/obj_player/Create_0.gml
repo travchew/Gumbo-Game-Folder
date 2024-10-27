@@ -13,6 +13,7 @@ sprUpJump = 0;
 sprDownJump = 0; // assign sprites here
 
 function sprite_pick() { // changes sprite based on "it" status
+	// put back facing if statement here and change this one to an else if!
 	if (vspd > 0) sprite_index = spr_downjump;
 	else if (vspd < 0) sprite_index = spr_upjump;
 	else if (hspd = 0) sprite_index = spr_idle;
@@ -61,7 +62,7 @@ terminal_vspeed = 15; // max gravity speed
 vacc_max = .3; // max grav acc
 
 // JUMP
-jump_v = 8; // init acceleration of jump
+jump_v = 16; // init acceleration of jump
 jump_status = false; // can the player jump?
 grounded = false;
 frames_since_grounded = 0;

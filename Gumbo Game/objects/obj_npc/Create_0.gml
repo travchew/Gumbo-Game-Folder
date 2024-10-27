@@ -7,15 +7,17 @@ t = 0;
 custom_alpha = 0;
 
 base_alpha = 0.9
+
+box_scale = 1;
 draw_set_font(Font2);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-text[0] = "..."
-text[1] = "[c_white][shake]Hello![/shake] I am a [/c_white][rainbow]NPC.[/rainbow]"
+text[0] = "default"
+//text[1] = "[c_white][shake]Hello![/shake] I am a [/c_white][rainbow]NPC.[/rainbow]"
 //text[2] = "The festival! The festival! It must be starting soon!"
 
-//
+
 
 
 
@@ -57,8 +59,8 @@ function play_dialogue(_text_number) {
 	else custom_alpha = 1;
 	draw_set_alpha(custom_alpha)
 	//draw_set_colour(c_black);
-	draw_sprite_ext(spr_SpeechBubbleTip, 0, tdpx,tdpy-40, 1.5, 2, 0, c_white, custom_alpha);
-	draw_sprite_ext(spr_TextBox, random_range(0,1), tdpx,tdpy, 3, 1, 0, c_white, custom_alpha);
+	draw_sprite_ext(spr_SpeechBubbleTip, 0, tdpx,tdpy-40, 1.5 * box_scale, 2, 0, c_white, custom_alpha);
+	draw_sprite_ext(spr_TextBox, random_range(0,1), tdpx,tdpy, 3 * box_scale, 1, 0, c_white, custom_alpha);
 	//draw_roundrect_ext(tdpx - 120, tdpy - 50, tdpx + 120, tdpy + 50, 10, 10, 0);
 	draw_set_colour(c_white);
 
