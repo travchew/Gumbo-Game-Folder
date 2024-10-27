@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Gumbo Game",
-    "path":"Gumbo Game.yyp",
+    "name":"testingOld",
+    "path":"folders/testingOld.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

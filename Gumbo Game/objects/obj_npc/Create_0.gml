@@ -12,8 +12,8 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
 text[0] = "..."
-text[1] = "[c_white][shake]Hello![/shake] I am a [/c_white][rainbow]tomato.[/rainbow]"
-text[2] = "The festival! The festival! It must be starting soon!"
+text[1] = "[c_white][shake]Hello![/shake] I am a [/c_white][rainbow]NPC.[/rainbow]"
+//text[2] = "The festival! The festival! It must be starting soon!"
 
 //
 

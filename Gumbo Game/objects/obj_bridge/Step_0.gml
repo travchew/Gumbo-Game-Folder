@@ -14,6 +14,6 @@ if (colliding and player.grounded and keyboard_check_pressed(vk_space)){
 	
 	
 	
-	
+// switch bridge sprites
 if (global.currentWorld = "spirit") image_index = 0;
 else image_index = 1;

@@ -1,5 +1,7 @@
 event_inherited()
 
+
+// just physics
 if(takeInput){
 
 	if (player = 0) arrow_inputs_p1();

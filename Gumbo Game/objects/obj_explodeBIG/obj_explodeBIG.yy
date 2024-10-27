@@ -6,8 +6,8 @@
   "name":"obj_explodeBIG",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"old",
+    "path":"folders/Objects/old.yy",
   },
   "parentObjectId":null,
   "persistent":false,
