@@ -63,7 +63,7 @@ terminal_vspeed = 15; // max gravity speed
 vacc_max = .3; // max grav acc
 
 // JUMP
-jump_v = 16; // init acceleration of jump
+jump_v = 10; // init acceleration of jump
 jump_status = false; // can the player jump?
 grounded = false;
 frames_since_grounded = 0;

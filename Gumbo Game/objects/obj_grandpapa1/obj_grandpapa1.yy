@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npcChild23",
+  "%Name":"obj_grandpapa1",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npcChild23",
+  "name":"obj_grandpapa1",
   "overriddenProperties":[],
   "parent":{
     "name":"NPC's",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temprun",
-    "path":"sprites/spr_temprun/spr_temprun.yy",
+    "name":"Grandpapa",
+    "path":"sprites/Grandpapa/Grandpapa.yy",
   },
   "spriteMaskId":null,
   "visible":true,

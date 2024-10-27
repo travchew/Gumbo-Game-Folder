@@ -1,15 +1,21 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
+global.puzzleOneSolved = false;
 lanternList = []
-space = 0
+space = 305;
 for(var i = 0; i < 4 ; i ++){
-	var lantern = instance_create_layer(1120 + space,640,"Interactables_linked",obj_lantern)
+	var lantern = instance_create_layer(3800 + i*space,570,"Interactables_linked",obj_lantern)
 	array_insert(lanternList,i,lantern)
 	
-	space += 300;
-}
+	
 
+}
+lanternList[0].spiritWorldOn = true;
+lanternList[1].spiritWorldOn = true;
+lanternList[2].spiritWorldOn = true;
+lanternList[3].interactLantern();
+
+lanternList[0].lanternShape = "rect";
+lanternList[1].lanternShape = "rect";
+lanternList[2].lanternShape = "rect";
+lanternList[3].lanternShape = "rect";
 //show_debug_message(lanternList);
 

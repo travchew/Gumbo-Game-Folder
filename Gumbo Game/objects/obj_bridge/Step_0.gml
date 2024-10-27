@@ -1,7 +1,7 @@
 
 
 
-if(!crossing and player.grounded and (distance_to_object(obj_player) < 110)){
+if(!crossing and player.grounded and (point_distance(x, y, obj_player.x, obj_player.y) < 90)){
 		colliding = true;
 		
 } else colliding = false

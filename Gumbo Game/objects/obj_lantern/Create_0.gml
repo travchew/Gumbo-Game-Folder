@@ -7,8 +7,14 @@ if realworldoff and world=real then turn off
 vice versa for sprit world!!!
 */
 
-realWorldOn = true;
-spiritWorldOn = false;
+scale = 0.5;
+image_xscale *= scale;
+image_yscale *= scale;
+
+realWorldOn = false;
+spiritWorldOn = true;
+
+lanternShape = "round";
 
 //this could be done with an array butttttttttttt no
 realX = x;
@@ -32,8 +38,13 @@ show_debug_message("i exist");
 
 function lantern_sprite_pick(type){
 	if(type == "round"){
-		if(global.currentWorld == "real" and realWorldOn) sprite_index = Lanternround_red
-		else if(global.currentWorld == "spirit" and spiritWorldOn) sprite_index = Lanternround_blue
-		else sprite_index = Lanternround_unlit
+		if(global.currentWorld == "real" and realWorldOn) sprite_index = Lanternround_red;
+		else if(global.currentWorld == "spirit" and spiritWorldOn) sprite_index = Lanternround_blue;
+		else sprite_index = Lanternround_unlit;
+	}
+	if(type == "rect"){
+		if(global.currentWorld == "real" and realWorldOn) sprite_index = Lanternsquare_red;
+		else if(global.currentWorld == "spirit" and spiritWorldOn) sprite_index = Lanternsquare_blue;
+		else sprite_index = Lanternsquare_unlit;
 	}
 }
