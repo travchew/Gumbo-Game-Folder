@@ -15,3 +15,13 @@ if(collision_rectangle(x,y,x+sprite_width,y+sprite_height,obj_player,false,false
 
 
 event_inherited()
+
+lantern_sprite_pick("round")
+
+if(global.currentWorld == "real"){
+	x = realX
+	y = realY
+} else {
+	x = spiritX
+	y = spiritY
+}

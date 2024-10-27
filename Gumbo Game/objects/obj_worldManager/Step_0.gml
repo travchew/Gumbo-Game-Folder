@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 if global.currentWorld == "spirit"{
 	
 	layer_set_visible(FXlayer,true)

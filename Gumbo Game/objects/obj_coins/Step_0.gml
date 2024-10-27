@@ -3,8 +3,7 @@
 
 
 
-if(collision_rectangle(x,y,x+sprite_width,y+sprite_height,obj_player,false,false)){
-	
+if(collision_rectangle(x,y,x+sprite_width,y+sprite_height,obj_player,false,false)) {
 	colliding = true;
 	if(keyboard_check_pressed(vk_space)){
 		obj_player.HasCoins = true;

@@ -14,7 +14,8 @@ sprDownJump = 0; // assign sprites here
 
 function sprite_pick() { // changes sprite based on "it" status
 	// put back facing if statement here and change this one to an else if!
-	if (vspd > 0) sprite_index = spr_downjump;
+	if (obj_worldManager.crossing) sprite_index = spr_mcback;
+	else if (vspd > 0) sprite_index = spr_downjump;
 	else if (vspd < 0) sprite_index = spr_upjump;
 	else if (hspd = 0) sprite_index = spr_idle;
 	else sprite_index = spr_walk;

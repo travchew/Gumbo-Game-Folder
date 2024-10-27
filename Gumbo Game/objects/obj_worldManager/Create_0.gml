@@ -4,8 +4,13 @@ player = obj_player;
 
 FXlayer = layer_get_id("Effect_1")
 
+crossing = false;
+
 function crossBridge(bridge){
+	crossing = true;
+	FadeOut();
 	with(player){
+		
 		changePlayerMovement();
 		fadeOUT = true;
 		/*
@@ -21,11 +26,11 @@ function crossBridge(bridge){
 		}
 		*/
 	}
-	player.x = bridge.x + bridge.sprite_width/2
+	player.x = bridge.x
 	
-	if (global.currentWorld == "real"){
-		global.currentWorld = "spirit"
-	} else global.currentWorld = "real"
+	//if (global.currentWorld == "real"){
+	//	global.currentWorld = "spirit"
+	//} else global.currentWorld = "real"
 	
 	bridge.crossing = false
 	bridge.colliding = false;
