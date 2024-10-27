@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"__scribble_no_preprocessing",
   "isCompatibility":false,
   "isDnD":false,

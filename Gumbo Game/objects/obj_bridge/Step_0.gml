@@ -11,3 +11,9 @@ if (colliding and player.grounded and keyboard_check_pressed(vk_space)){
 			crossing = true;
 			obj_worldManager.crossBridge(self)
 	}
+	
+	
+	
+	
+if (global.currentWorld = "spirit") image_index = 0;
+else image_index = 1;

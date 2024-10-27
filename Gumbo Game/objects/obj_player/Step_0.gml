@@ -22,6 +22,6 @@ if(takeInput){
 
 	//check_death();
 
-	sprite_it();
+	sprite_pick();
 
 }

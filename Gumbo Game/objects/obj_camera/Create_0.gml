@@ -6,8 +6,8 @@ follow = followables[follow_a]; // This camera will follow obj_player
 target_x = follow.x
 target_y = follow.y
 
-global.cam_width = 1920;
-global.cam_height = 1080;
+global.cam_width = 1400;
+global.cam_height = 1050;
 
 cam_speed = 20; // higher values = slower cam
 

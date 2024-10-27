@@ -3,7 +3,7 @@ camera = view_camera[0]
 
 //center the camera on initial load
 x = room_width / 2;
-y = 0;
+y = room_height / 2;
 
 
 
@@ -18,7 +18,7 @@ target_y = follow.y
 global.cam_width = 1920;
 global.cam_height = 1080;
 
-cam_speed = 20; // higher values = slower cam
+cam_speed = 1; // higher values = slower cam
 
 x = follow.x;
 y = follow.y;

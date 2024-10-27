@@ -3,21 +3,35 @@ y = y;
 vspd = 0;
 hspd = 0;
 
-image_speed = 0;
+
 
 takeInput = true;
 ImgScale = 1;
 HasCoins = false;
 
+sprUpJump = 0;
+sprDownJump = 0; // assign sprites here
+
+function sprite_pick() { // changes sprite based on "it" status
+	if (vspd > 0) sprite_index = spr_downjump;
+	else if (vspd < 0) sprite_index = spr_upjump;
+	else if (hspd = 0) sprite_index = spr_idle;
+	else sprite_index = spr_walk;
+	
+	if (hspd > 0) image_xscale = -abs(image_xscale);
+	if (hspd < 0) image_xscale = abs(image_xscale);
+	
+}
+
 event_inherited()
 
-function changePlayerMovement(){
+function changePlayerMovement() {
 	takeInput = !takeInput;
 	hspd = 0
 	vspd = 0
 }
 
-function bridgeCrossAnimation(){
+function bridgeCrossAnimation() {
 		/*
 		ImgScale -= 0.1;
 		image_xscale = ImgScale

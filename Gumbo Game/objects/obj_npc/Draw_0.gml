@@ -8,7 +8,7 @@ if (near_player) {
 	dialogue_next();
 }
 else {
-	image_alpha = 0.3;
+	image_alpha = base_alpha;
 	t = 0;
 }
 
